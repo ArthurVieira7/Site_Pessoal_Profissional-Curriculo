@@ -145,8 +145,6 @@ const contactForm = document.getElementById('contactForm');
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
-    // Aqui você normalmente enviaria o formulário para um backend
-    // Para demonstração, apenas mostraremos uma mensagem
     const submitBtn = contactForm.querySelector('.submit-btn');
     const originalText = submitBtn.innerHTML;
     
@@ -206,4 +204,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         document.body.classList.add('loaded');
     }, 1000);
+
 });
